@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+
+a {
+    color: #005da6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    border-bottom: solid 2px #005da6;
+}
+
+.header {
+    background: rgb(36, 49, 94);
+    background: rgb(24,34,68);
+    background: -moz-linear-gradient(340deg, rgba(24,34,68,1) 0%, rgba(36,49,94,1) 39%, rgba(58,73,127,1) 100%);
+    background: -webkit-linear-gradient(340deg, rgba(24,34,68,1) 0%, rgba(36,49,94,1) 39%, rgba(58,73,127,1) 100%);
+    background: linear-gradient(340deg, rgba(24,34,68,1) 0%, rgba(36,49,94,1) 39%, rgba(58,73,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#182244",endColorstr="#3a497f",GradientType=1);
+    min-height: 200px;
+    max-height: 400px;
+    height: 40%;
+    padding: 15px;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-info-container {
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.flex-container > .flex-item {
+    width: 200px;
+    margin: 15px;
+}
+
+.card {
+    min-height: 100px;
+    border-radius: 2px;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 1.4px 6.4px 0 rgba(0,0,0,.132);
+    height: 50%;
+}
+
+.team-section > .team-name, .team-description {
+    margin: 0px;
+    padding: 0px;
+}
+
+.team-section {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.team-description {
+    color: #333;
+    font-weight: 400;
+}
+
+.card-info > .item-name, .item-description, .item-link {
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.item-description {
+    font-weight: 400;
+    color: #333;
+}
+
+.card:hover {
+    position: relative;
+    bottom: 3px;
+    box-shadow: 0 6.4px 14.4px 0 rgba(0,0,0,.132);
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+    .flex-container {
+        justify-content: flex-start;
+    }
+}
+/* @media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+} */
