@@ -52,7 +52,7 @@ a:hover {
 }
   
 .flex-container > .flex-item {
-    width: 200px;
+    width: 300px;
     margin: 15px;
 }
 
@@ -107,6 +107,9 @@ a:hover {
 @media (min-width: 768px) {
     .container {
         width: 750px;
+    }
+    .flex-container > .flex-item {
+        width: 200px;
     }
 }
 @media (min-width: 992px) {
