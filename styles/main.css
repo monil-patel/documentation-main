@@ -59,11 +59,19 @@ a:hover {
     border-radius: 2px;
     background: white;
     cursor: pointer;
-    box-shadow: 0 1.4px 6.4px 0 rgba(0,0,0,.132);
+    -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132),0 .3px .9px 0 rgba(0,0,0,.108);
+    box-shadow: 0px 1.6px 3.6px 0px rgba(0,0,0,0.132), 0px 0.3px 0.9px 0px rgba(0,0,0,0.108);
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover {
+    position: relative;
+    bottom: 3px;
+    box-shadow: 0 6.4px 14.4px 0 rgba(0,0,0,.132);
+
 }
 
 .card > img {
@@ -95,12 +103,7 @@ a:hover {
     color: #333;
 }
 
-.card:hover {
-    position: relative;
-    bottom: 3px;
-    box-shadow: 0 6.4px 14.4px 0 rgba(0,0,0,.132);
 
-}
 
 .container {
     padding-right: 15px;
@@ -112,6 +115,10 @@ a:hover {
 @media (min-width: 768px) {
     .container {
         width: 750px;
+    }
+    .flex-container {
+        justify-content: flex-start;
+
     }
     .flex-container > .flex-item {
         width: 200px;
