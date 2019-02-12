@@ -25,8 +25,8 @@ a:hover {
     background: linear-gradient(340deg, rgba(24,34,68,1) 0%, rgba(36,49,94,1) 39%, rgba(58,73,127,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#182244",endColorstr="#3a497f",GradientType=1);
     min-height: 200px;
-    max-height: 400px;
-    height: 40%;
+    max-height: 450px;
+    height: 60%;
     padding: 15px;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .card {
-    min-height: 100px;
+    min-height: 150px;
     border-radius: 2px;
     background: white;
     cursor: pointer;
